@@ -28,3 +28,39 @@ You can check out [the Next.js GitHub repository](https://github.com/zeit/next.j
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+# Utilizar Syled Components
+
+npm i @emotion/core @emotion/styled babel-plugin-emotion @emotion/babel-preset-css-prop
+
+# firebase
+
+npm i firebase
+npm i firebase-admin
+
+# Dependencia para subir archivos al storage de Firebase
+
+npm i react-firebase-file-uploader
+
+# Formatear fechas js
+
+npm i date-fns
+
+# Exportar aplicacion
+
+npm run export
+
+# Firebase deploy
+
+firebase login
+firebase init hosting
+firebase deploy
+
+# Zeit deployment
+
+npm i -g now
+now login
+
+# la / porque ya hay una version existente
+
+now out/
